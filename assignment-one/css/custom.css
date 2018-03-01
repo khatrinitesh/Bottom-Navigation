@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	float: left;
+	position: relative;
+}
+
+footer{
+	line-height: 48px;
+	background-color: #333333;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+footer ul li a{
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+	display: block;
+	padding: 0 15px;
+}
+
+footer ul li a.active,
+footer ul li a:hover{
+	background-color: #4caf50;
+	color: #fff;
+}
